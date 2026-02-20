@@ -1,13 +1,29 @@
+body {
+  background-color: rgb(25, 7, 31);
+}
+
 .card {
     border: 3px solid rgb(222, 199, 241);
     border-radius: 25px;
     background-color: rgb(206, 176, 206);
+    box-shadow: 0px 8px 12px rgb(255, 255, 255);
+    transition: all 0.5s ease 0s;
+}
+.card:hover {
+    box-shadow: 2px 12px 16px rgb(255, 255, 255);
+    transition: all 0.5s ease 0s;
+}
+
+.btn:hover {
+  box-shadow: 0px 3px 6px rgb(245, 232, 255);
+  transition: all 0.4s ease 0s;
 }
 
 .calc-display {
   background: rgb(229, 221, 235);
   color: #000000;
   border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0px 4px 8px rgb(245, 232, 255);
 }
 
 .calc-history {
